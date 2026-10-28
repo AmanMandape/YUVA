@@ -1,0 +1,15 @@
+KPI,Value
+Total Dataset Records,180519.0
+Total Dataset Columns,53.0
+Late Delivery Rate,54.82913155955883
+Advance Shipping Rate,23.040233991989766
+Shipping On-Time Rate,17.835241719708176
+Shipping Cancellation Rate,4.295392728743234
+Average Actual Shipping Time (days),3.4976539865609713
+Average Scheduled Shipping Time (days),2.931846509231715
+Average Shipping Time Gap (days),0.5658074773292561
+Total Sales Value,36784735.01337984
+Average Sales per Record,203.77209608617287
+Average Order Item Quantity,2.127637533999191
+Duplicate Rows,0.0
+Total Missing Values,336209.0
