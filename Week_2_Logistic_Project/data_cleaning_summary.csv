@@ -1,0 +1,9 @@
+Metric,Value
+Original Rows,180519
+Original Columns,53
+Cleaned Rows,180519
+Cleaned Columns,52
+Columns Removed,1
+Customer Lname Missing Values Filled,8
+Remaining Missing Cells,155682
+Duplicate Rows in Cleaned Dataset,0
