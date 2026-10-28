@@ -1,0 +1,46 @@
+# Week 4: Logistics Predictive Modeling and Optimization
+
+## 1. Introduction
+This week focused on developing machine learning models to predict late delivery risk using the DataCo Supply Chain dataset. The objective was to evaluate predictive performance and identify factors associated with delivery delays.
+
+## 2. Dataset Preparation
+The cleaned dataset generated during Week 2 was used. The target variable was `Late_delivery_risk`. The data was divided into training and testing sets using an 80:20 split, with stratification to preserve the target distribution.
+
+Features that could cause target leakage or were unsuitable for prediction, including delivery status, order identifiers, actual shipping duration, and sensitive customer information, were excluded.
+
+## 3. Data Preprocessing
+A preprocessing pipeline was developed using:
+- Median imputation for numerical features.
+- Most-frequent imputation for categorical features.
+- One-hot encoding for categorical variables.
+
+## 4. Machine Learning Models
+Two classification models were trained and evaluated:
+
+1. Random Forest Classifier
+2. Logistic Regression
+
+The Random Forest model was saved for reuse and tested by loading it and generating sample predictions.
+
+## 5. Model Evaluation
+The models were compared using accuracy, precision, recall, and F1-score. A confusion matrix was generated to examine classification outcomes, and a feature-importance chart was created to explore influential predictors.
+
+*Insert the actual metrics from `week4_model_comparison.csv` and include the confusion-matrix and feature-importance charts.*
+
+## 6. Output Files
+The following artifacts were generated:
+- `week4_random_forest_confusion_matrix.png`
+- `week4_random_forest_feature_importance.png`
+- `week4_model_comparison.csv`
+- `week4_model_performance_comparison.png`
+- `week4_random_forest_model.joblib`
+- `week4_model_results_summary.txt`
+
+## 7. Conclusion
+Week 4 established a machine learning workflow for logistics delivery-risk prediction, including preprocessing, model training, evaluation, comparison, and model persistence. The evaluation results should guide model selection and future improvements.
+
+## 8. Future Improvements
+- Investigate additional leakage risks and validate that every feature would be available at prediction time.
+- Tune model hyperparameters and evaluate class-specific errors.
+- Test the model on newer or independent data.
+- Explore route or shipment optimization using operational constraints where suitable.
